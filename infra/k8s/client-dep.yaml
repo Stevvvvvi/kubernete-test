@@ -21,6 +21,8 @@ kind: Service
 metadata: 
   name: client-srv
 spec: 
+  selector: 
+    app: client
   ports: 
     - name: client
       protocol: TCP
